@@ -10,7 +10,7 @@
 
 body{
 	line-height: 1.5;
-	font-family:Sans-serif;
+	font-family: 'Merriweather', serif;
 	background-color: #fbfbf8;
 
 }
@@ -18,7 +18,7 @@ body{
 .wrapper{
 	width: 90%;
 	margin: 0 auto;
-	max-width: 720px;
+	max-width: 768px;
 }
 
 .main-header,
@@ -143,7 +143,7 @@ select{
 
 
 input[id="zipcode"]{
-	width: 20%;
+	width: 30%;
 	display: block;
 }
 
@@ -207,7 +207,7 @@ textarea{
 	}
 
 	.flex-zip label{
-		margin-right: 6.5em;
+		flex-basis: 23.5% ;
 		margin-top: 20px;
 		
 	}
