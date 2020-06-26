@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Online Registration Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!--====== header =======-->
+
+
+	<header class="main-header">
+		<h1 class="title">THE CODE REVIEW</h1>
+	</header>
+
+
+
+	<!--========= wrapper ======-->
+	<!--======= intro title======== -->
+
+
+	<div class="wrapper">
+		<div class="intro">
+			<h2 class="signup">Signup for our newsletter</h2>
+			<p class="description">Get the latest news on how your code is doing right in your inbox</p>
+		</div>
+
+
+		<!--========== main ===========-->
+
+		<main>
+
+		<!--========== form ===========-->
+		
+			<form method="post" action="index.html">
+
+			<!--======== fieldset contact info =========-->
+
+
+			<fieldset id="contact-field">
+
+				<legend class="contact-info">Contact Information</legend>
+				
+				<div class="flex">
+					<label for="name">Full Name</label>
+					<input type="text" name="user_name" id="name" required="required" placeholder="required">
+				</div>
+				
+
+				<div class="flex">
+					<label for="Email">Email Address</label>
+					<input type="Email" name="user_email" id="Email" required="required" placeholder="required">
+				</div>
+
+
+				<div class="flex">
+					<label for="telephone">Phone Number</label>
+					<input type="tel" name="user_number" id="telephone">
+				</div>
+				
+				<div class="flex">
+					<label for="address">Street Address</label>
+					<input type="text" name="user_address" id="address">
+				</div>
+
+				<div class="flex">
+					<label for="city">City</label>
+					<input type="text" name="user_city" id="city">
+				</div>
+
+
+				<div class="flex">
+					<label for="state_name">State</label>
+					<select name="state" id="state_name">
+						<option>Choose State</option>
+						<option value="Texas">Texas</option>
+						<option value="Main">Main</option>
+						<option value="New York">New York</option>
+						<option value="California">California</option>
+						<option value="Florida">Florida</option>
+						<option value="Nebraska">Nebraska</option>
+					</select>
+				</div>
+
+
+				<div class="flex-zip">
+					<label for="zipcode">Zip Code</label>
+					<input type="text" name="user_zip" id="zipcode">
+				</div>
+
+			</fieldset>
+
+
+
+			<!--======= fieldset newsletter ==========-->
+
+			
+
+			<fieldset id="newsletter-field">
+				<legend class="newletter">Newsletter</legend>
+
+				<p class="select">Select the newsletter you would like to recieve</p>
+
+				<input type="checkbox" name="newsletter" id="html_news" value="html_news"><label for="html_news">Html News</label><br>
+
+				<input type="checkbox" name="newsletter" id="css_news" value="css_news"><label for="css_news">Css News</label><br>
+
+				<input type="checkbox" name="newsletter" id="javascript_news" value="javascript_news"><label for="javascript_news">Javascript News</label>
+
+				<p class="select">Newsletter Format</p>
+
+				<input type="radio" name="format" id="html_format" value="html"><label for="html_format">Html</label><br>
+
+				<input type="radio" name="format" id="text_format" value="plain_text"><label for="text_format">Plain text</label><br>
+
+				<label for="topics">Other topics you'd like to hear about</label>
+
+				<textarea id="topics" name="user_topics"></textarea>
+
+			</fieldset>
+
+			<button type="submit" class="btn">Sign Up</button>
+
+			</form>
+
+			<!--======== end of form =========-->
+
+		</main>
+
+		<!--========== end of main ===========-->
+
+
+		<!--======= footer ===========-->
+
+
+		<footer class="main-footer">
+			<p><em>Copyright The Code Review</em></p>
+		</footer>
+
+	</div>
+
+	<!-- end of wrapper ==============-->
+
+</body>
+</html>

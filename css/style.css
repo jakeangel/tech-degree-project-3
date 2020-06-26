@@ -1,0 +1,243 @@
+/*========================
+		base styles
+=======================*/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	line-height: 1.5;
+	font-family:Sans-serif;
+	background-color: #fbfbf8;
+
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.main-header,
+.intro,
+.main-footer{
+	text-align: center;
+
+}
+
+input::placeholder{
+	text-align: right;
+}
+
+
+.main-header{
+	background: #14586e;
+	color: #fff;
+	font-size: .752em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin-bottom: 40px;
+}
+
+.intro{
+	padding-bottom: 50px;
+	border-bottom: 5px solid black;
+}
+
+
+.signup{
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+main{
+	border-top: 2px solid black;
+	margin-top: 4px;
+	
+}
+
+input{
+	outline: none;
+}
+
+fieldset{
+	border:none;
+}
+
+.intro .description,
+input::placeholder,
+label,
+p{
+	color: darkgrey;
+
+}
+.contact-info,
+.newletter,
+.select{
+	margin: 15px 0;
+}
+
+#contact-field{
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+}
+
+
+.contact-info,
+.newletter{
+	padding-top: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.main-footer{
+	height: 150px;
+}
+
+
+
+
+/*================================
+		form label styles
+==========================*/
+label[for$="news"],
+label[for$="format"]{
+	margin-left: 10px;
+}
+
+label[for="topics"]{
+	margin: 10px 0;
+	display: block;
+}
+
+
+
+
+
+/*=====================
+		form input styles
+==============================*/
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+	width: 100%;
+	padding: 1.5em;
+	margin-bottom: 2em;
+	font-size: 1em;
+	border-radius: 4px;
+	background: lightgrey;
+	border: none;
+	-webkit-appearance: none;
+         -moz-appearance: none;
+          
+
+}
+
+select{
+	color: darkgrey;
+}
+
+
+input[id="zipcode"]{
+	width: 30%;
+	display: block;
+
+
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus{
+	border:solid 1px blue;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+	margin-bottom: 15px;
+
+}
+
+
+textarea{
+	width: 100%;
+	min-height: 150px;
+	border: none;
+	background-color: lightgrey;
+	font-size: 1em;
+}
+
+
+.btn{
+	width: 100%;
+	padding: 1.6em;
+	margin: 2em 0;
+	background: teal;
+	color: white;
+}
+
+
+/*============================
+		media queary
+==================================*/
+
+@media (min-width:768px){
+
+	.flex{
+		display: flex;
+
+
+	}
+
+	.flex input[type="text"],
+	.flex input[type="email"],
+	.flex input[type="tel"],
+	select{
+		flex: 2 70%;
+		
+
+	}
+
+	.flex label{
+		flex: 1 20%;
+		margin-top: 20px;
+
+	}
+
+	
+
+	.flex-zip{
+		display: flex;
+
+
+	}
+
+	.flex-zip label{
+		margin-right: 6.5em;
+		margin-top: 20px;
+		
+	}
+
+
+	
+		
+
+
+
+}
+
+
+
+
+
+
+
+
