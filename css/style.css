@@ -19,6 +19,7 @@ body{
 	width: 90%;
 	margin: 0 auto;
 	max-width: 768px;
+	
 }
 
 .main-header,
@@ -65,6 +66,7 @@ input{
 
 fieldset{
 	border:none;
+
 }
 
 .intro .description,
@@ -84,8 +86,13 @@ select{
 #contact-field{
 	border-bottom: 2px solid black;
 	padding-bottom: 20px;
+
 }
 
+#newsletter-field{
+	background: #96f593;
+	padding: 1em;
+}
 
 .contact-info,
 .newletter{
@@ -147,11 +154,17 @@ input[id="zipcode"]{
 	display: block;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+	transition: border .3s ease-in;
+}
+
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus{
-	border:solid 2px rebeccapurple;
+	border:solid 3px rebeccapurple;
 }
 
 
@@ -191,10 +204,10 @@ textarea{
 		display: flex;
 	}
 
-
+	.flex-zip label,
 	.flex label{
-		flex: 1 20%;
-		margin-top: 20px;
+		flex-basis: 20%;
+		margin-top: 15px;
 	}
 
 
@@ -206,11 +219,7 @@ textarea{
 
 	}
 
-	.flex-zip label{
-		flex-basis: 23.5% ;
-		margin-top: 20px;
-		
-	}
+
 
 
 }
