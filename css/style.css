@@ -81,7 +81,7 @@ select{
 .contact-info,
 .newletter,
 .select{
-	margin: 12px 0;
+	margin: 8px 0;
 }
 
 #contact-field{
@@ -92,17 +92,18 @@ select{
 
 #newsletter-field{
 	background: #96f593;
-	padding: 1em;
+	padding: 1em 2em;
 }
 
 .contact-info,
 .newletter{
-	padding-top: 1.5em;
+	padding-top: 3em;
 	font-size: 1.5em;
 	font-weight: bold;
 }
 
 .main-footer{
+	margin-top: 2em;
 	height: 150px;
 }
 
@@ -188,7 +189,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 1.3em;
-	margin: 2em 0;
+	margin: 2em 0 0 0;
 	background: teal;
 	color: white;
 	font-size: 1em;
