@@ -219,7 +219,7 @@ textarea{
 	.flex input[type="email"],
 	.flex input[type="tel"],
 	select{
-		flex: 2 70%;	
+		flex: 1 70%;	
 
 	}
 
